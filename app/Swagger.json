@@ -1,0 +1,43 @@
+{
+    "openapi":"3.0.2",
+    "info": {
+      "title":"Test Api",
+      "version":"1.0"
+    },
+    "servers": [
+      {"url":"https://api.server.test/v1"}
+    ],
+    "definitions": {
+        "id":{
+            "properties":{
+                "uuid":{
+                    "type":"string"
+                }
+            }
+        }
+    },
+    "paths": {
+        "/user/login": {
+            "get": {
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/user/signup": {
+            "get": {
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+  }
