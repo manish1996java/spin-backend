@@ -7,15 +7,6 @@
     "servers": [
       {"url":"https://api.server.test/v1"}
     ],
-    "definitions": {
-        "id":{
-            "properties":{
-                "uuid":{
-                    "type":"string"
-                }
-            }
-        }
-    },
     "paths": {
         "/user/login": {
             "get": {
